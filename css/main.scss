@@ -3,27 +3,58 @@
 ---
 @charset "utf-8";
 
+$fonts-directory: "../fonts";
+@font-face {
+  font-family: "ubuntu";
+  src: url('#{$fonts-directory}/ubuntu/ubuntu-m-webfont.eot');
+  src: url('#{$fonts-directory}/ubuntu/ubuntu-m-webfont.eot?#iefix') format('embedded-opentype'),
+       url('#{$fonts-directory}/ubuntu/ubuntu-m-webfont.woff') format('woff'),
+       url('#{$fonts-directory}/ubuntu/ubuntu-m-webfont.ttf') format('truetype'),
+       url('#{$fonts-directory}/ubuntu/ubuntu-m-webfont.svg#ubuntumedium') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ubuntu";
+  src: url('#{$fonts-directory}/ubuntu/ubuntu-r-webfont.eot');
+  src: url('#{$fonts-directory}/ubuntu/ubuntu-r-webfont.eot?#iefix') format('embedded-opentype'),
+       url('#{$fonts-directory}/ubuntu/ubuntu-r-webfont.woff') format('woff'),
+       url('#{$fonts-directory}/ubuntu/ubuntu-r-webfont.ttf') format('truetype'),
+       url('#{$fonts-directory}/ubuntu/ubuntu-r-webfont.svg#ubuntulight') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ubuntu";
+  src: url('#{$fonts-directory}/ubuntu/ubuntu-l-webfont.eot');
+  src: url('#{$fonts-directory}/ubuntu/ubuntu-l-webfont.eot?#iefix') format('embedded-opentype'),
+       url('#{$fonts-directory}/ubuntu/ubuntu-l-webfont.woff') format('woff'),
+       url('#{$fonts-directory}/ubuntu/ubuntu-l-webfont.ttf') format('truetype'),
+       url('#{$fonts-directory}/ubuntu/ubuntu-l-webfont.svg#ubuntulight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
 
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: "ubuntu", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
-$base-font-weight: 400;
+$base-font-weight: 300;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+$spacing-unit:     24px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$text-color:       #666;
+$background-color: #fafafa;
+$brand-color:      #F15B24;
 
-$grey-color:       #828282;
+$grey-color:       #75859E;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    980px;
 
 $on-palm:          600px;
 $on-laptop:        800px;

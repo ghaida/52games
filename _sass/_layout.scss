@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+  background: linear-gradient(169deg, transparent, rgba(152, 119, 156, 0.5), #632D3A), url('../img/orion.jpg') center center no-repeat;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -20,7 +20,7 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: white;
     }
 }
 
@@ -33,13 +33,21 @@
     }
 
     .page-link {
+      @include media-query($on-palm) {
         color: $text-color;
+      }
+      color: rgba(255,255,255,.8);
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
             margin-right: 20px;
         }
+    }
+    @media only screen and (min-width: $on-laptop) {
+      .page-link:hover {
+        color: rgba(255,255,255,1);
+      }
     }
 
     @include media-query($on-palm) {
@@ -174,7 +182,6 @@
 .page-heading {
     font-size: 20px;
 }
-
 .post-list {
     margin-left: 0;
     list-style: none;
@@ -190,7 +197,6 @@
 }
 
 .post-link {
-    display: block;
     font-size: 24px;
 }
 
