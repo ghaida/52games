@@ -7,11 +7,11 @@
 
 # Site settings
 title: 52 Games in 52 Weeks
-email: your-email@domain.com
+website: http://ghaidazahran.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  I'm challenging myself to make 52 games in 2016; one game every week.
+  Every week I'm going to post a link to the game and documentation of
+  process and what I've learned.
 baseurl: "/52games" # the subpath of your site, e.g. /blog
 url: "http://ghaida.github.io/52games" # the base hostname & protocol for your site
 twitter_username: ghaidazahran

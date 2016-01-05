@@ -2,17 +2,23 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
     <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-3">
+        <h2 class="footer-heading">{{ site.title }}</h2>
+        <p>{{ site.description }}</p>
+      </div>
+
       <div class="footer-col footer-col-1">
+        <h3 class="footer-heading">Colophon</h3>
         <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li>Games and site by <a href="{{ site.website }}">Ghaida Zahran</a></li>
+          <li>Games built with <a href="http://phaser.io">Phaser</a> and <a href="http://unity3d.com">Unity</a></li>
+          <li>Site built using <a href="http://jekyllrb">Jekyll</a> and <a href="http://github.com">Github</a></li>
         </ul>
       </div>
 
       <div class="footer-col footer-col-2">
+        <h3 class="footer-heading">Socials</h3>
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
@@ -28,9 +34,6 @@
         </ul>
       </div>
 
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
     </div>
 
   </div>
