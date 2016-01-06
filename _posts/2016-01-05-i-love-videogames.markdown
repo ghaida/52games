@@ -2,8 +2,6 @@
 layout: post
 title:  "I love videogames"
 date:   2016-01-05
-tags: update
-categories: nogame
 custom_excerpt: this is a custom excerpt stuff and things and things and stuff and omg this is really an excerpt
 post_img: /assets/post-img-msx.jpg
 ---
