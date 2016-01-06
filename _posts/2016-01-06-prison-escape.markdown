@@ -1,5 +1,5 @@
 ---
-layout: game_post
+layout: game-post
 title:  "Game One: Prison Escape"
 game_title: Prison Escape
 date:   2016-01-05
