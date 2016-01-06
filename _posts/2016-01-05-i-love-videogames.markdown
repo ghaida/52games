@@ -4,7 +4,7 @@ title:  "I love videogames"
 date:   2016-01-05
 tags: update
 categories: nogame
-custom_excerpt: this is a custom excerpt stuff and things and things and stuff and omg this is really an excerpt
+custom_excerpt: A brief history of my love for games.
 post_img: /assets/post-img-msx.jpg
 ---
 I've wanted to make games ever since I played my first game on the Atari 2600. So many great memories in my life centered around videogames. Before I'd become lame and started using smoke breaks to make friends, my socializing happened around videogames. I've long since quit smoking, but not playing games.
