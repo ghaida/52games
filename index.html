@@ -3,17 +3,21 @@ layout: default
 ---
 
 <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
+  <h2 class="page-heading">Making games mostly for fun, and maybe one day for profit</h2>
+  <p class="lead">Noob game designer makes a game every week. Many of these games will flat out suck. I hope that by game 52 I will look back on the first few games and wish I could erase them from the internet.</p>
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+        <a class="post-link media-container" href="{{ post.url | prepend: site.baseurl }}">
+          <div class="media-img" style="background: url({{ site.baseurl }}{{ post.post_img }}); background-size: cover;">
+          </div>
+          <div class="media-content">
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <span class="post-meta post-tags">{{ post.tags }}</span>
+            <h3>{{ post.title }}</h3>
+            <p>{{ post.custom_excerpt }}</p>
+          </div>
+        </a>
       </li>
     {% endfor %}
   </ul>

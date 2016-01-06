@@ -8,9 +8,12 @@ layout: default
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
     <p class="post-meta">{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
   </header>
-
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
-
+  <div class="download-panel">
+    <h3>Play the game</h3>
+    <p>This game runs on {{ page.game_platform }}.</p>
+    <a href="{{ page.game_url }}" class="button">Play {{ page.game_title }}</a>
+  </div>
 </article>

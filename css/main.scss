@@ -54,12 +54,12 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    980px;
+$content-width:    960px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
 
-
+$base-radius: 3px;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -82,3 +82,159 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+.post {
+  width: 80%;
+  margin: 0 auto;
+  @include media-query($on-palm) {
+    width: 100%;
+  }
+}
+.post-content img {
+  display: block;
+  margin: ($spacing-unit / 2) auto;
+}
+.footer-heading {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: $spacing-unit / 3;
+}
+.post-title {
+  margin-top: $spacing-unit / 3;
+}
+.post-list h2 {
+  margin-bottom: $spacing-unit / 3;
+}
+.post-link p {
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  color: $text-color;
+
+}
+.post-img {
+  display: block;
+  width: auto;
+  text-align: center;
+  vertical-align: top;
+}
+.media-container {
+  @extend %clearfix;
+  display: block;
+  border-bottom: 0;
+  overflow: visible;
+  &:hover { border-bottom: 0;}
+}
+.media-content,
+.media-img {
+  display: inline-block;
+}
+.media-img {
+  width: 120px;
+  height: 120px;
+  vertical-align: middle;
+  border-radius: 100%;
+  opacity: .8;
+  @include media-query($on-palm) {
+    width: 82px;
+    height: 82px;
+  }
+}
+.media-content {
+  width: 70%;
+  margin-left: -$spacing-unit;
+  vertical-align: top;
+  position: relative;
+  z-index: 5;
+}
+.media-content h3 {
+  margin-bottom: $spacing-unit / 4;
+}
+.media-content span,
+.media-content h3,
+.media-content p {
+  background: white;
+  padding: $spacing-unit / 3;
+  border-left: 2px solid white;
+}
+.media-content span { padding-top: $spacing-unit / 4; }
+@media only screen and (min-width: $on-laptop) {
+  .post-link:hover .media-img { opacity: 1; }
+  .post-link:hover {
+    .media-content span,
+    .media-content h3,
+    .media-content p {
+      border-left-color: $brand-color;
+    }
+  }
+  .post-list li {
+    display: inline-block;
+    width: 49%;
+  }
+}
+.lead {
+  margin-bottom: $spacing-unit;
+}
+.header-segment {
+  font-size: 80%;
+  opacity: .9;
+  margin-left: $spacing-unit / 3;
+  line-height: 56px;
+  @include media-query($on-palm) {
+    display: block;
+    margin-left: 0;
+    line-height: 56px;
+    margin-top: -24px;
+  }
+}
+.static-page img {
+  border-radius: 50%;
+  max-width: 120px;
+}
+.post-meta.post-tags,
+.post-meta.post-tags:hover { border: 0; }
+
+.download-panel {
+  border: 1px solid #ddd;
+  padding: $spacing-unit;
+  background: #f7f7f7;
+  border-radius: $base-radius;
+  margin-bottom: $spacing-unit;
+}
+.download-panel h3 {
+  margin-bottom: $spacing-unit / 4;
+}
+.button,
+.button:visited {
+  background: $brand-color;
+  border-radius: $base-radius;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  padding: ($spacing-unit / 2) $spacing-unit;
+  border: 0;
+  color: #fff;
+  transition: background-color 300ms;
+  display: inline-block;
+  &:hover {
+    border: 0;
+    background: darken($brand-color, 10%);
+  }
+}
+.post-content h5 {
+  margin-bottom: $spacing-unit / 4;
+}
+.post-content .highlight,
+.post-content p {
+  margin-bottom: $spacing-unit;
+}
+.post-content p {
+  line-height: 1.6;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+}

@@ -199,7 +199,7 @@
     color: $grey-color;
 }
 
-.post-link {
+.post-link h2 {
     font-size: 24px;
 }
 
@@ -248,18 +248,4 @@
             font-size: 18px;
         }
     }
-}
-
-
-.header-segment {
-  font-size: 75%;
-  opacity: .8;
-  margin-left: 12px;
-  line-height: 56px;
-  @include media-query($on-palm) {
-    display: block;
-    margin-left: 0;
-    line-height: 56px;
-    margin-top: -24px;
-  }
 }

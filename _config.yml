@@ -9,9 +9,8 @@
 title: 52 Games in 52 Weeks
 website: http://ghaidazahran.com
 description: > # this means to ignore newlines until "baseurl:"
-  I'm challenging myself to make 52 games in 2016; one game every week.
-  Every week I'm going to post a link to the game and documentation of
-  process and what I've learned.
+  I'm challenging myself to make one game every week in 2016, and post
+  the game, as well as documentation of my process, on this site.
 baseurl: "/52games" # the subpath of your site, e.g. /blog
 url: "http://ghaida.github.io/52games" # the base hostname & protocol for your site
 twitter_username: ghaidazahran
