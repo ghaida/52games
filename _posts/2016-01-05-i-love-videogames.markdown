@@ -32,6 +32,6 @@ The biggest challenge will be learning the tools while I make the games. I dove 
 
 ![Penguin Adventure]({{ site.baseurl}}/assets/post-img-penguin-adventure.jpg)
 
-This is going to be an exciting adventure. My first game is [Prison Escape]({% post_url 2016-01-06-prison-escape %})
+This is going to be an exciting adventure. My first game is [Prison Escape]({% post_url 2016-01-05-prison-escape %})
 
 P.S. If you know the name of that Disney programming book, [tweet at me!](http://twitter.com/ghaidazahran)
