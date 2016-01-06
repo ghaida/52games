@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>52 Games in 52 Weeks</title>
+    <description>I&#39;m challenging myself to make one game every week in 2016, and post the game, as well as documentation of my process, on this site.
+</description>
+    <link>http://ghaida.github.io/52games/</link>
+    <atom:link href="http://ghaida.github.io/52games/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 05 Jan 2016 23:50:32 -0800</pubDate>
+    <lastBuildDate>Tue, 05 Jan 2016 23:50:32 -0800</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Game One: Prison Escape</title>
+        <description>&lt;h4 id=&quot;why-i-made-this&quot;&gt;Why I made this&lt;/h4&gt;
+&lt;p&gt;This isn’t my first game, but it is my first game using Unity. I signed up for a &lt;a href=&quot;https://www.udemy.com/unitycourse&quot;&gt;Unity course&lt;/a&gt; on Udemy and went to town. I’ve only ever played a few text adventure games, so it was pretty challenging to think about how to describe the world in words rather than draw it out.&lt;/p&gt;
+
+&lt;p&gt;Although this game is super short and pretty limited, it was still challenging to make sure I closed all loops and also remained aware of the player’s current state. The tutorial doesn’t really cover this much because it was focused on just getting the students through the game. After testing it out a couple of times I was pretty bothered by the fact that the game wasn’t aware when you picked up an item. This meant that unless the player goes through a very specific sequence of events, they’d have to start over from the beginning.&lt;/p&gt;
+
+&lt;p&gt;The challenge should be in figuring out the puzzle, not fiddling with the program’s controls.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-i-learned&quot;&gt;What I learned&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Making games is hard&lt;/li&gt;
+  &lt;li&gt;Making games is fun&lt;/li&gt;
+  &lt;li&gt;If there’s a broken loop somewhere, your players will discover it on the first playtest&lt;/li&gt;
+  &lt;li&gt;… so just fix it if you know it’s there.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I always thought Unity was pretty intimidating. I became much more comfortable with it after finally just &lt;em&gt;sitting down and making a game already.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;game-type&quot;&gt;Game Type&lt;/h5&gt;
+&lt;p&gt;Text Adventure&lt;/p&gt;
+
+&lt;h5 id=&quot;platform&quot;&gt;Platform&lt;/h5&gt;
+&lt;p&gt;Mac, Windows&lt;/p&gt;
+</description>
+        <pubDate>Tue, 05 Jan 2016 00:00:00 -0800</pubDate>
+        <link>http://ghaida.github.io/52games/game/2016/01/05/prison-escape.html</link>
+        <guid isPermaLink="true">http://ghaida.github.io/52games/game/2016/01/05/prison-escape.html</guid>
+        
+        <category>devdiary</category>
+        
+        
+        <category>game</category>
+        
+      </item>
+    
+      <item>
+        <title>I love videogames</title>
+        <description>&lt;p&gt;I’ve wanted to make games ever since I played my first game on the Atari 2600. So many great memories in my life centered around videogames. Before I’d become lame and started using smoke breaks to make friends, my socializing happened around videogames. I’ve long since quit smoking, but not playing games.&lt;/p&gt;
+
+&lt;p&gt;Videogames helped me make friends when I was too socially awkward to start conversations. My &lt;a href=&quot;https://en.wikipedia.org/wiki/Prince_of_Persia&quot;&gt;Prince of Persia&lt;/a&gt; skills helped me impress a boy I had a crush on when I was seven. Playing videogames was a boys-club back in my old neighborhood, which made my affinity for games pretty convenient because there were no girls in the neighborhood anyway. Even though I was a girl &lt;em&gt;gasp&lt;/em&gt; I was still able to make lasting friendships during those years because my love for videogames made me more relatable to the boys.&lt;/p&gt;
+
+&lt;p&gt;My first true love was the &lt;a href=&quot;https://en.wikipedia.org/wiki/Sakhr_Computers&quot;&gt;MSX&lt;/a&gt;. This was a keyboard that you connect to your TV and takes cartridges. It was a neat little system. It took two cartridges–which allowed us to cheat in games by putting the game cartridge in one slot and the cheat code cartridge in the other slot in the other slot–and it ran &lt;a href=&quot;https://en.wikipedia.org/wiki/BASIC&quot;&gt;BASIC&lt;/a&gt; programs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post-img-msx.jpg&quot; alt=&quot;Sakhr MSX&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;MSX had some great games, like the original Metal Gear, Castle, and my favorite: &lt;a href=&quot;https://en.wikipedia.org/wiki/Penguin_Adventure&quot;&gt;Penguin Adventure.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I wrote my first code on an MSX. It looked like this:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-basic&quot; data-lang=&quot;basic&quot;&gt;10 print stuff
+20 goto 10&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Obviously, I did not retain much of what I’d learned. I got a Disney programming book that had different Disney movie-inspired programs that I programmed in BASIC. With that I learned to make the MSX beep the Little Mermaid theme and I thought it was wonderful. That was my first foray into game-making, and the last for a very long time.&lt;/p&gt;
+
+&lt;p&gt;Fast-forward a few decades &lt;em&gt;(yeesh)&lt;/em&gt; and I have the itch again. In the past couple of years I’ve done a 52-week challenge of some form or another. This year, I’m making games, and documenting them here. At least one game every week. The rules are: there are no rules. Any type of game counts; a text adventure, an arcade shooter, whatever.&lt;/p&gt;
+
+&lt;p&gt;The biggest challenge will be learning the tools while I make the games. I dove first into &lt;a href=&quot;http://phaser.io&quot;&gt;Phaser&lt;/a&gt;, which made sense because I’m very comfortable with HTML and CSS. Phaser was pretty great but I quickly realized that Unity was much more widely adopted and, when learning new things, it’s always better to choose a platform with larger community support.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post-img-penguin-adventure.jpg&quot; alt=&quot;Penguin Adventure&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is going to be an exciting adventure. My first game is &lt;a href=&quot;/game/2016/01/05/prison-escape.html&quot;&gt;Prison Escape&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;P.S. If you know the name of that Disney programming book, &lt;a href=&quot;http://twitter.com/ghaidazahran&quot;&gt;tweet at me!&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 05 Jan 2016 00:00:00 -0800</pubDate>
+        <link>http://ghaida.github.io/52games/nogame/2016/01/05/i-love-videogames.html</link>
+        <guid isPermaLink="true">http://ghaida.github.io/52games/nogame/2016/01/05/i-love-videogames.html</guid>
+        
+        <category>update</category>
+        
+        
+        <category>nogame</category>
+        
+      </item>
+    
+  </channel>
+</rss>

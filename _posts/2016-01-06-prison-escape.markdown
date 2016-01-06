@@ -3,6 +3,8 @@ layout: game-post
 title:  "Game One: Prison Escape"
 game_title: Prison Escape
 date:   2016-01-05
+tags: devdiary
+categories: game
 custom_excerpt: this is a custom excerpt
 post_img: /assets/post-img-prison-escape.png
 game_url: http://ghaida.itch.io/prison-escape

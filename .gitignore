@@ -1,7 +1,6 @@
 # Created by https://www.gitignore.io/api/jekyll,sass,osx
 
 ### Jekyll ###
-_site/
 .sass-cache/
 .jekyll-metadata
 
