@@ -9,6 +9,9 @@ layout: default
     <p class="post-meta">{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
   </header>
   <div class="post-content" itemprop="articleBody">
+    {% if page.video_src %}
+      <iframe width="{{ page.video_width }}" height="{{ page.video_height }}" src="{{ page.video_src }}" frameborder="0" allowfullscreen></iframe>
+    {% endif %}
     {{ content }}
   </div>
   <div class="download-panel">

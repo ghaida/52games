@@ -10,8 +10,10 @@ post_img: /assets/post-img-prison-escape.png
 game_url: http://ghaida.itch.io/prison-escape
 game_platform: Mac, Windows
 game_genre: Text Adventure
+video_src: https://www.youtube.com/embed/DN43sCyEanA
+video_width: 560
+video_height: 315
 ---
-
 #### Why I made this
 This isn't my first game, but it is my first game using Unity. I signed up for a [Unity course](https://www.udemy.com/unitycourse) on Udemy and went to town. I've only ever played a few text adventure games, so it was pretty challenging to think about how to describe the world in words rather than draw it out.
 

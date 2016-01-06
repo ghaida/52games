@@ -7,9 +7,11 @@ categories: nogame
 custom_excerpt: A brief history of my love for games.
 post_img: /assets/post-img-msx.jpg
 ---
-I've wanted to make games ever since I played my first game on the Atari 2600. So many great memories in my life centered around videogames. Before I'd become lame and started using smoke breaks to make friends, my socializing happened around videogames. I've long since quit smoking, but not playing games.
+I've wanted to make games ever since I played my first game on the Atari 2600. So many great memories in my life involve some sort of game. Before I'd become lame and started using smoke breaks to make friends, my socializing revolved around videogames. I've long since quit smoking, but not playing games.
 
-Videogames helped me make friends when I was too socially awkward to start conversations. My [Prince of Persia](https://en.wikipedia.org/wiki/Prince_of_Persia) skills helped me impress a boy I had a crush on when I was seven. Playing videogames was a boys-club back in my old neighborhood, which made my affinity for games pretty convenient because there were no girls in the neighborhood anyway. Even though I was a girl *gasp* I was still able to make lasting friendships during those years because my love for videogames made me more relatable to the boys.
+Videogames helped me make friends when I was too socially awkward to start conversations. My [Prince of Persia](https://en.wikipedia.org/wiki/Prince_of_Persia) skills helped me impress a boy I had a crush on when I was seven. Playing videogames was a boys' club back in my old neighborhood, which made my affinity for games pretty convenient because there were no girls in the neighborhood anyway. Even though I was a girl *gasp* I was still able to make lasting friendships during those years because my love for videogames made me more relatable to the boys.
+
+![I want to play!]({{ site.baseurl}}/assets/post-img-iwanttoplay.jpg) _Experiencing getting excluded from a boys' club for the first time._
 
 My first true love was the [MSX](https://en.wikipedia.org/wiki/Sakhr_Computers). This was a keyboard that you connect to your TV and takes cartridges. It was a neat little system. It took two cartridges–which allowed us to cheat in games by putting the game cartridge in one slot and the cheat code cartridge in the other slot in the other slot–and it ran [BASIC](https://en.wikipedia.org/wiki/BASIC) programs.
 
