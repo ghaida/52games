@@ -4,6 +4,10 @@
 _site/
 .sass-cache/
 .jekyll-metadata
+Gemfile
+Gemfile.lock
+./bundle/*
+./bundle
 
 
 ### Sass ###

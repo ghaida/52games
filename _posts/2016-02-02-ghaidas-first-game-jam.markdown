@@ -15,7 +15,7 @@ game_genre: IDK
 ![Personal Space Invaders]({{ site.baseurl}}/assets/post-img-candlegoat.png)
 
 ### What's a game jam?
-A game jam is when a group of people make games in a limited amount of time. The biggest such event is the [Global Game Jam.](http://globalgamejam.org/) This is a global event, with different locations providing spaces for people to make games together.
+A game jam is an event where a group of people make games in a limited amount of time. The biggest such event is the [Global Game Jam.](http://globalgamejam.org/) Like the name suggests, this is an international event, with each location independently running its own jam, but all locations share a single theme around which people will build their games.
 
 ### Cool! Except, it didn't go so well
 I didn't go in with a team. That was my first mistake. I'm mostly introverted, with brief bouts of enthused extraversion when I'm excited. I tried to get myself into the latter mood going into the game jam, but my enthusiasm was deflated the minute I stepped foot inside the venue; there were literally only 7 women there compared to maybe 40 men.

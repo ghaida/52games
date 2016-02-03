@@ -149,7 +149,10 @@ $base-radius: 3px;
   z-index: 5;
 }
 .media-content h3 {
-  margin-bottom: $spacing-unit / 4;
+  margin-bottom: 0;
+  @media only screen and (min-width: $on-laptop) {
+    margin-bottom: $spacing-unit / 4;
+  }
 }
 .media-content span,
 .media-content h3,
@@ -157,6 +160,12 @@ $base-radius: 3px;
   background: white;
   padding: $spacing-unit / 3;
   border-left: 2px solid white;
+}
+.media-content p {
+  padding-top: 0;
+  @media only screen and (min-width: $on-laptop) {
+    padding-top: $spacing-unit / 3;
+  }
 }
 .media-content span { padding-top: $spacing-unit / 4; }
 @media only screen and (min-width: $on-laptop) {
