@@ -92,7 +92,7 @@ $base-radius: 3px;
     width: 100%;
   }
 }
-.post-content img {
+.post-content img:not(.emoji) {
   display: block;
   margin: ($spacing-unit / 2) auto;
 }
