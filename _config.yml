@@ -18,3 +18,6 @@ github_username:  ghaida
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jemoji

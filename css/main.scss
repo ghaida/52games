@@ -46,7 +46,7 @@ $base-line-height: 1.5;
 $spacing-unit:     24px;
 
 $text-color:       #333;
-$background-color: #fafafa;
+$background-color: #fff;
 $brand-color:      #F15B24;
 
 $grey-color:       #75859E;
@@ -82,7 +82,9 @@ $base-radius: 3px;
         "layout",
         "syntax-highlighting"
 ;
-
+.site-footer {
+  background: #fafafa;
+}
 .post {
   width: 80%;
   margin: 0 auto;
