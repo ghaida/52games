@@ -11,15 +11,15 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="{{ site.title }}">
-  <meta name="twitter:title" content="{{ post.title }}">
+  <meta name="twitter:title" content="{{ page.title }}">
   <meta name="twitter:title" content="{{ site.title }}">
-  {% if post.custom_excerpt %}
-    <meta name="twitter:description" content="{{ post.custom_excerpt }}">
+  {% if page.custom_excerpt %}
+    <meta name="twitter:description" content="{{ page.custom_excerpt }}">
   {% else %}
       <meta name="twitter:description" content="{{ site.description }}">
   {% endif %}
-  {% if post.post_img %}
-    <meta name="twitter:image" content="{{ post.post_img }}">
+  {% if page.post_img %}
+    <meta name="twitter:image" content="{{ page.post_img }}">
   {% endif %}
   {% include analytics.html %}
 </head>
