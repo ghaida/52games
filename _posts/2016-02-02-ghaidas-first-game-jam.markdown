@@ -3,7 +3,7 @@ layout: game-post
 title:  "Game 4: Ghaida's First Game Jam"
 game_title: Candlegoat
 date: 2016-02-02
-tags: devdiary
+tags: gamejam
 categories: game
 custom_excerpt: What IS a candlegoat?
 post_img: /assets/post-img-candlegoat.png
@@ -12,7 +12,7 @@ game_platform: Mac, Windows, Linux
 game_genre: IDK
 ---
 
-![Personal Space Invaders]({{ site.baseurl}}/assets/post-img-candlegoat.png)
+![Candlegoat]({{ site.baseurl}}/assets/post-img-candlegoat.png)
 
 ### What's a game jam?
 A game jam is an event where a group of people make games in a limited amount of time. The biggest such event is the [Global Game Jam.](http://globalgamejam.org/) Like the name suggests, this is an international event, with each location independently running its own jam, but all locations share a single theme around which people will build their games.
