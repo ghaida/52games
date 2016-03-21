@@ -22,7 +22,10 @@
       <meta name="twitter:description" content="{{ site.description }}">
   {% endif %}
   {% if page.post_img %}
-    <meta name="twitter:image" content="{{ post.post_img }}">
+    <meta name="twitter:image" content="{{ page.post_img }}">
+  {% endif %}
+  {% if page.url %}
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
   {% endif %}
   {% include analytics.html %}
 </head>
