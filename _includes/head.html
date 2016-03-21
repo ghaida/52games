@@ -19,10 +19,10 @@
   {% if page.custom_excerpt %}
     <meta name="twitter:description" content="{{ page.custom_excerpt }}">
   {% else %}
-      <meta name="twitter:description" content="{{ site.description }}">
+    <meta name="twitter:description" content="{{ site.description }}">
   {% endif %}
   {% if page.post_img %}
-    <meta name="twitter:image" content="{{ page.post_img }}">
+    <meta name="twitter:image:src" content="{{ site.url }}{{ page.post_img }}">
   {% endif %}
   {% if page.url %}
     <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
