@@ -13,12 +13,12 @@
   <meta name="twitter:site" content="{{ site.title }}">
   <meta name="twitter:title" content="{{ post.title }}">
   <meta name="twitter:title" content="{{ site.title }}">
-  {% if page.description %}
+  {% if post.custom_excerpt %}
     <meta name="twitter:description" content="{{ post.custom_excerpt }}">
   {% else %}
       <meta name="twitter:description" content="{{ site.description }}">
   {% endif %}
-  {% if page.post_img %}
+  {% if post.post_img %}
     <meta name="twitter:image" content="{{ post.post_img }}">
   {% endif %}
   {% include analytics.html %}
